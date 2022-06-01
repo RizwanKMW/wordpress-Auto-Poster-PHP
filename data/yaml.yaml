@@ -1,0 +1,32 @@
+# key raja have many items 
+raja:
+  - farhan
+  - yaser
+  - bilal
+  - rizi
+# key raja2 have many items, but different technique 
+raja2:
+  [bila,pilla,milla]
+#handle ", '  and make string to single line remove \n\r
+singleline: >
+  "YAML is a less-verbose data serialization format.
+  It stands for "YAML Ain't Markup Language".
+  YAML has been a popular data serialization format among
+  software developers mainly because it's human-readable."
+#Multiline and handle ",'
+multiline: |
+  "YAML is a less-verbose data serialization format.
+  It stands for "YAML Ain't Markup Language".
+  YAML has been a popular data serialization format among
+  software developers mainly because it's human-readable."
+
+category:
+  0: { id: 1, name: "PHP" }
+  1: { id: 2, name: "YAML" }
+  2: { id: 3, name: "XML" }
+
+article:
+  0:
+    id: 1
+  1:
+    id: 2
