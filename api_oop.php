@@ -1,6 +1,6 @@
 <?php
 use Symfony\Component\Yaml\Yaml;
-$base_url = "/home/u587650850/domains/thebestsuggest.com/public_html";
+$base_url =  dirname(__FILE__);
 require_once($base_url.'/wp-load.php');
 require_once($base_url.'/wp-config.php'); 
 require_once($base_url.'/wp-includes/wp-db.php'); 
