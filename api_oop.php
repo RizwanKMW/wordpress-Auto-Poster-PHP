@@ -402,6 +402,15 @@ class wp_api{
 			return false;
 		}
 	}
+	public function wp_db_query($sql){
+		global $wpdb;
+		$results = $wpdb->get_results($sql);
+		if(count($results)>0){
+			return $results;
+		}else{
+			return false;
+		}
+	}
 
 
 
