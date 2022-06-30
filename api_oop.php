@@ -201,7 +201,6 @@ class wp_api{
 	}
 
 	function get_random_directory($parent_folder=null){
-		$parent_folder="wp-content";
 		$allSubFiles = glob($parent_folder."/*");
 		//$allSubFiles = scandir($parent_folder."/");
 		$dirs = array_filter($allSubFiles, 'is_dir');
