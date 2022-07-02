@@ -273,11 +273,6 @@ class wp_api{
 	#                                                                                #
 	##################################################################################
 
-	//create $obj->wp_db_create_record('wp_posts',array('post_author'=>2));
-	//read $obj->wp_db_get_all_results('wp_posts',array('post_author'=>2),10);
-	//update $obj->wp_db_update_record('wp_posts',array('post_author'=>2),array('ID'=>2,'post_author'=>1)); //table,update data, where
-	//delete $obj->wp_db_delete_record('wp_posts',array('post_author'=>44));
-
 	public function wp_db_get_all_results($table=null,$where=null,$limit=50){
 		global $wpdb;
 		if($table==null){
