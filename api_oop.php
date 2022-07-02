@@ -5,33 +5,6 @@ require_once($base_url.'/wp-load.php');
 require_once($base_url.'/wp-config.php'); 
 require_once($base_url.'/wp-includes/wp-db.php'); 
 require_once($base_url.'/wp-admin/includes/taxonomy.php'); 
-/*
-	These folder/files are mandatory
-	data/first-names.txt❤
-	data/vendor for yaml symfony
-	data/handle_images/PHPImage.php //for image generations
-
-	FUNCTIONS
-
-	wp_create_post('test','test',array(1),[1]);
-	wp_create_comment('rizikmw@gmail.com','Every product has undefined',531,'[2022-06-01 10:55:07]');
-	wp_create_comment_reply($comment_parent_id,$post_id,$reply,$email = "rizikmw@gmail.com",$comment_author="olha",$date='Y-m-d H:i:s')
-	wp_upload_file('https://getnow.pk/wp-content/uploads/2019/01/BM10-Mini-Quad-Band-Phone.jpg');
-	set_post_thumbnail( $postid, $attachmentid ); //true or false
-	checkRemoteFile('https://leadmcqs.com'); //true or false
-	is_string_contains($array,$string) ; case senstive, make string lower case if need case insenstive
-	get_gravatar_image_link($email='filereal@live.com',$size=100)
-	image_resize_and_fit('https://img.freepik.com/free-photo/grunge-paint-background_1409-1337.jpg?w=2000','https://images.priceoye.pk/google-pixel-5a-5g-pakistan-priceoye-j12jk.jpg',120,80,$resizePixels=900); //resize image, and put it back to background image
-	get_random_files_from_folder('c://rizi',1);
-	get_random_directory('c://rizi');
-	get_random_names();
-	wp_update_post_modified($id)
-	wp_get_users_ids() //all registered users id array
-	wp_get_one_random_user_id()
-	read_config() //read yaml file
-
-
-*/
 
 function addqoute($v)
 {
